@@ -1,5 +1,5 @@
 body {
-  background-image: url('thankswalseth.jpg');
+  background-image: url('thankswalseth.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,5 +10,5 @@ body {
   position: absolute;
   top: 10vh;
   left: 40vw;
-  width: 25vw;
+  width: 100px;
 }
