@@ -82,7 +82,7 @@ form {
 .radio {
     margin: 5px 10px;
 }
-#submit {
+#submit, #tryAgain {
     width: 100px;
     padding: 8px;
     margin: 10px 0;
@@ -94,6 +94,9 @@ form {
     cursor: pointer;
 }
 
+#tryAgain, #message {
+    display: none;
+}
 
 #stars {
     font-size: 20pt;
