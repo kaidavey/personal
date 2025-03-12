@@ -32,7 +32,6 @@ const agenda = document.getElementById("agenda");
 
 function monday() {
     clearForm();
-    agenda.innerHTML = "<h3>Hello there</h3>";
 }
 
 function tuesday() {
@@ -41,6 +40,12 @@ function tuesday() {
 
 function wednesday() {
     clearForm();
+    agenda.innerHTML =
+        "<h3>Today's Agenda</h3>" +
+        "<br><p>Phone's should go in pockets!</p><br>" +
+        "<p>Whiteboard day</p>" +
+        "<p>Intro to Lab 6B Challenge: Work with your group to create a procedure for tomorrow's lab.</p><br>" +
+        "<p>HW Due: 3.3 & 3.4</p>";
 }
 
 function thursday() {
