@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    background: #0f3308;
+}
 body {
     font-family: 'Arial', sans-serif;
     background: #32951c;
@@ -26,27 +29,15 @@ li {
     display: inline;
     padding-right: 40px;
 }
+#last {
+    padding-right: 0;
+}
 a {
     text-decoration: none;
     color: #fff;
 }
 a:hover {
     text-decoration: underline;
-}
-#pay {
-    position: absolute;
-    right: 20px;
-    padding: 4px 20px;
-    background-color: #fff;
-    color: #000;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 4px;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-}
-#pay:hover {
-    background-color: #beedc0;
-    text-decoration: none;
 }
 
 h1 {
