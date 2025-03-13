@@ -1,7 +1,3 @@
-.container {
-    margin-bottom: 30px;
-}
-
 /* Horizontal Rule Styling */
 hr {
     height: 2px;
@@ -19,7 +15,7 @@ p {
 }
 
 /* List Styling */
-ul {
+.rulesList {
     margin: 0 35px;
 }
 ol {
