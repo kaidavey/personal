@@ -62,6 +62,8 @@ a:hover {
 
 /* Left & Right Div Settings */
 #left, #right {
+    display: flex;
+    flex-direction: column;
     float: left;
     width: 42%;
     padding: 2%;
@@ -98,4 +100,19 @@ form {
 #stars {
     font-size: 20pt;
     color: #f9c108
+}
+
+#leaderboard {
+    list-style-type: none;
+}
+.rank {
+    font-weight: bold;
+    font-size: 30pt;
+    vertical-align: top;
+    padding-right: 10px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
 }

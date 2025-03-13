@@ -17,6 +17,6 @@ const countdownInterval = setInterval(function() {
 
     if (timeLeft <= 0) {
         clearInterval(countdownInterval);
-        document.getElementById("countdown").innerHTML = "Round 1 Has Started!";
+        document.getElementById("countdown").innerHTML = "Event Started!";
     }
 }, 1000);
