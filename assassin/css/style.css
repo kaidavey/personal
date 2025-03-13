@@ -1,0 +1,76 @@
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background: #32951c;
+    background: linear-gradient(to right, #32951c, #e1bf14);
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: #0f3308;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
+    padding-right: 40px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    text-decoration: underline;
+}
+#pay {
+    position: absolute;
+    right: 20px;
+    padding: 4px 20px;
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#pay:hover {
+    background-color: #beedc0;
+    text-decoration: none;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #000;
+}
+h2 {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+/* Mobile-specific Styles */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+}

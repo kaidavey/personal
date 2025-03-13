@@ -1,0 +1,50 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px 20px;
+}
+
+.player {
+    background: #333;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.player:hover {
+    transform: translateY(-3px);
+    background-color: #444;
+}
+
+.name {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.in {
+    background-color: #08550b;
+}
+
+.out {
+    background-color: #f44336;
+}
+
+/* Styling for mobile sreens */
+@media screen and (max-width: 768px) {
+    .player {
+        font-size: 1rem;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .player {
+        font-size: 0.9rem;
+        padding: 12px;
+    }
+}
