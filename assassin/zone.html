@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safe Zones</title>
+    <title>Safe Zone</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/zone.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map { height: 100vh; width: 100%; }
+    </style>
 </head>
 <body>
 <header>
@@ -13,12 +18,14 @@
             <li class="nav"><a href="index.html" class="pages">Home</a></li>
             <li class="nav"><a href="players.html" class="pages">Players</a></li>
             <li class="nav"><a href="rules.html" class="pages">Rules</a></li>
-            <li id="last" class="nav"><a href="zones.html" class="pages">Safe Zones</a></li>
+            <li id="last" class="nav"><a href="zone.html" class="pages">Safe Zone</a></li>
         </ul>
     </nav>
 </header>
 <main>
-    <div id="zone" class="container"></div>
+    <div id="map"></div>
 </main>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="scripts/leafletMap.js"></script>
 </body>
 </html>
