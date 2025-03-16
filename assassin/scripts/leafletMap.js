@@ -38,5 +38,5 @@ L.polygon(boundary3, { color: 'green', fillOpacity: 0.3 }).addTo(map);
 
 // Add a marker for Roosevelt High School
 L.marker([47.6776, -122.3127]).addTo(map)
-    .bindPopup("Roosevelt High School")
+    .bindPopup("In this zone, you are safe wearing a swim cap, googles, or water wings.")
     .openPopup();
