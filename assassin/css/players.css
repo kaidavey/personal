@@ -4,6 +4,51 @@ main {
     align-items: center;
 }
 
+#background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    transition: backdrop-filter 0.5s ease-in-out;
+}
+
+#overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    margin: 10px 0;
+    color: white;
+    background-color: #08550b;
+    border: none;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255, 0.8);
+}
+
+#unlock {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: goldenrod;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
