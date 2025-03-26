@@ -18,7 +18,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255);
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
