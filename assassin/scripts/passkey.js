@@ -6,7 +6,10 @@ function checkPasskey(e) {
     e.preventDefault();
 
     if (inputHash === correctHash) {
-        document.getElementById("background").style.backdropFilter = "blur(0px)";
+        var list = document.getElementsByClassName("name");
+        for (var i = 0; i < list.length; i++) {
+            list[i].style.display = "block";
+        }
         document.getElementById("overlay").style.display = "none";
     } else {
         alert("Incorrect passkey!");
