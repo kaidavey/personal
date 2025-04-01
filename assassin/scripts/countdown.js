@@ -1,5 +1,5 @@
 // Get the target date
-const targetDate = new Date("March 31, 2025 00:00:00").getTime();
+const targetDate = new Date("April 5, 2025 11:59:00").getTime();
 
 // Refresh how much time left every 1 second
 const countdownInterval = setInterval(function() {
@@ -13,10 +13,10 @@ const countdownInterval = setInterval(function() {
     const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
     document.getElementById("countdown").innerHTML =
-        "Round 1 Starts in: " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+        "Round 1 Ends in: " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
     if (timeLeft <= 0) {
         clearInterval(countdownInterval);
-        document.getElementById("countdown").innerHTML = "Event Started!";
+        document.getElementById("countdown").innerHTML = "Round 1 is over!";
     }
 }, 1000);
