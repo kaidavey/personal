@@ -24,5 +24,5 @@ form.addEventListener("submit", function (event) {
 var playerCount = document.getElementById("playerCount");
 document.addEventListener("DOMContentLoaded", function (event) {
     event.preventDefault();
-    playerCount.textContent = "" + document.getElementsByClassName("player").length;
+    playerCount.textContent = "" + document.getElementsByClassName("in").length;
 })
