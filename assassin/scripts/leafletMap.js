@@ -8,11 +8,11 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Define the multi-section boundary (matching the image)
 var boundary3 = [
-    [47.6780, -122.3155], // Top-left
-    [47.6780, -122.3120], // Top-right
+    [47.67803, -122.3157], // Top-left
+    [47.67803, -122.3120], // Top-right
     [47.6774, -122.3120], // Bottom-right
-    [47.6774, -122.3155], // Bottom-left 8
-    [47.6780, -122.3155]  // Close the polygon
+    [47.6774, -122.3157], // Bottom-left 8
+    [47.67803, -122.3157]  // Close the polygon
 ];
 
 var boundary4 = [
