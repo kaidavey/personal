@@ -26,3 +26,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
     event.preventDefault();
     playerCount.textContent = "" + document.getElementsByClassName("in").length;
 })
+
+var playersOut = document.getElementById("playersOut");
+document.addEventListener("DOMContentLoaded", function (event) {
+    event.preventDefault();
+    playersOut.textContent = "" + document.getElementsByClassName("out").length;
+})
