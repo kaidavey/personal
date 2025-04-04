@@ -1,5 +1,5 @@
 // Get the target date
-const targetDate = new Date("April 5, 2025 11:59:00").getTime();
+const targetDate = new Date("April 5, 2025 23:59:00").getTime();
 
 // Refresh how much time left every 1 second
 const countdownInterval = setInterval(function() {
