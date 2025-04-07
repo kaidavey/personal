@@ -32,3 +32,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
     event.preventDefault();
     playersOut.textContent = "" + document.getElementsByClassName("out").length;
 })
+
+const container = document.getElementById("playerGrid");
+const divs = Array.from(container.children);
+
+divs.sort((a, b) => {
+    // 'in' should come before 'out'
+    const aIsIn = a.classList.contains("in");
+    const bIsIn = b.classList.contains("in");
+    return (bIsIn - aIsIn); // Sorts: 'in' before 'out'
+});
+
+// Append the sorted elements back to the container
+divs.forEach(div => container.appendChild(div));
