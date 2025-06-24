@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C46CV4626R"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C46CV4626R"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-        gtag('config', 'G-C46CV4626R');
-    </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
-    <script>
-        if (window.location.pathname === '/') {
-            window.location.replace('https://www.seniorassassin25.org/assassin');
-        }
-    </script>
+    gtag('config', 'G-C46CV4626R');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
+<header>
+  <nav>
+    <ul class="links">
+      <li class="nav"><a href="index.html" class="pages">Home</a></li>
+      <li class="nav"><a href="players.html" class="pages">Players</a></li>
+      <li class="nav"><a href="rules.html" class="pages">Rules</a></li>
+      <li id="last" class="nav"><a href="zone.html" class="pages">Safe Zone</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <div id="announcements" class="container">
+    <h3>Announcements</h3>
+    <h2 id="countdown">Round 3 Ends in:</h2><br>
+    <p>IF AND ONLY IF you kill your target, you will inherit another one. You are not obligated to kill your new target because you would have already satisfied the one person per week quota. As long as you don't get shot for the rest of the week you will move onto the next round. The opportunity to kill another target in Round 2 exists so you can eliminate more players if you so choose.</p>
+  </div>
+</main>
+<script src="scripts/countdown.js"></script>
 </body>
 </html>
